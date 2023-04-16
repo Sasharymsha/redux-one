@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Cakes from './Components/DessertComponents/Cakes';
+import Cart from './Components/Cart/Cart';
+import AllCategory from './Components/Filter/AllCategory';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='first'>
+        <h1>VEGAN  <img alt="cart" className="cartIcon" src="https://img.icons8.com/color/256/cake.png"/> DESSERTS</h1>
+      </div>
+      <div className='block'>
+      <AllCategory/>
+      <Cart/>
+      </div>
+      <div className='block'>
+      <Cakes/>
+      </div>
     </div>
   );
 }

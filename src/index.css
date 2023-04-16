@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #FBFBFB;
+  }
+.first{
+    background-color: #C36A2D;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  .block {
+  background-color: #C36A2D;
+  padding: 50px;
+  margin: 80px;
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+  .cake{
+    width: 400px;
+    border: 25px solid #cf8f64;
+  }
+  .cartIcon{
+    width: 80px;
+  }
+  .categoryButton:hover {
+    background-color: #b1876b;
+  }
+  .categoryButton {
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px;
+  }
+  .icon{
+    width: 30px;
+  }
+  p, button {
+    font-family: 'Nova Oval', cursive;
+    font-size: 20px;
+  }
+  h1{
+    font-family: 'Nova Oval', cursive;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  h2{
+    font-family: 'Nova Oval', cursive;
+    font-size: 30px;
+    background-color: #cf8f64;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  h3{
+    font-family: 'Nova Oval', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  h4{
+    font-family: 'Nova Oval', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  button {
+    background-color: #dbb18f;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-top: 40px;
+    margin: 20px;
+  }
